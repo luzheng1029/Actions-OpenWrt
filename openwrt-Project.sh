@@ -23,6 +23,8 @@ sed -i '$a src-git nas_luci https://github.com/linkease/nas-packages-luci.git;ma
 # git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 git clone https://github.com/fw876/helloworld.git package/ssr
 git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
+git clone https://github.com/sbwml/openwrt-alist.git package/openwrt-alist
+git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobirdsvn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
 # git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 # git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/passwall
 git clone https://github.com/linkease/istore.git package/istore
